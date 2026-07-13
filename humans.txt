@@ -1,0 +1,7 @@
+/* TEAM */
+Project: Web3 Content Platform
+Type: Static frontend + Termux backend via Cloudflare Tunnel
+
+/* SITE */
+Language: id
+Standards: HTML5, CSS3, ES6

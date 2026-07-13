@@ -1,0 +1,44 @@
+<section class="page-section about-section">
+    <h2 class="page-title">About</h2>
+    <p class="about-text">
+        Web3 Content Platform adalah aplikasi katalog dan pemutar konten terdesentralisasi yang menghubungkan
+        frontend statis dengan backend pribadi melalui Cloudflare Tunnel, memungkinkan streaming video tanpa
+        server berbayar.
+    </p>
+
+    <h3 class="section-title">Teknologi</h3>
+    <ul class="about-tech-list">
+        <li>Frontend statis dihosting di GitHub Pages</li>
+        <li>Backend Flask berjalan di Termux (Android)</li>
+        <li>Cloudflare Tunnel sebagai reverse proxy HTTPS</li>
+        <li>Vidstack Player untuk pemutaran video</li>
+        <li>Progressive Web App dengan dukungan offline</li>
+    </ul>
+
+    <p class="about-version">Versi Aplikasi: <span data-app-version>1.0.0</span></p>
+
+    <div class="server-connection-panel">
+        <h3 class="section-title">Koneksi Server</h3>
+        <p>Status: <span data-connection-status>Memeriksa...</span></p>
+        <p>URL Aktif: <span data-active-url class="active-url-text"></span></p>
+
+        <label for="tunnel-url-input" class="form-label">URL Tunnel Baru</label>
+        <input type="text" id="tunnel-url-input" class="form-input" placeholder="https://xxxxx.trycloudflare.com">
+
+        <div class="server-connection-actions">
+            <button type="button" id="save-tunnel-url" class="btn-primary">Simpan</button>
+            <button type="button" id="test-connection" class="btn-secondary">Test Koneksi</button>
+        </div>
+        <p id="test-connection-result" class="test-result-text"></p>
+
+        <div class="server-instructions">
+            <h4>Cara Menjalankan Backend di Termux</h4>
+            <ol>
+                <li>Install Python dan cloudflared di Termux</li>
+                <li>Jalankan <code>~/web3-backend/start.sh</code></li>
+                <li>Salin URL tunnel yang muncul ke kolom di atas</li>
+                <li>Klik Simpan untuk menghubungkan aplikasi</li>
+            </ol>
+        </div>
+    </div>
+</section>

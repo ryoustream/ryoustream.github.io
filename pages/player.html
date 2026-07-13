@@ -1,0 +1,38 @@
+<section class="player-section" id="player-detail-container">
+    <button type="button" class="back-button" data-back-button aria-label="Kembali">
+        <i class="bi bi-arrow-left"></i> Kembali
+    </button>
+
+    <div id="player-error" class="player-error" style="display:none;"></div>
+
+    <div class="player-wrapper">
+        <media-player
+            id="main-player"
+            src=""
+            view-type="video"
+            stream-type="on-demand"
+            log-level="warn"
+            crossorigin=""
+            playsinline>
+            <media-provider></media-provider>
+            <media-video-layout></media-video-layout>
+        </media-player>
+    </div>
+
+    <div class="player-meta">
+        <h1 data-player-title></h1>
+        <p data-player-description></p>
+        <div class="player-tags" data-player-genres></div>
+        <div class="player-info-row">
+            <span>Kategori: <strong data-player-category></strong></span>
+            <span>Tahun: <strong data-player-year></strong></span>
+            <span>Rating: <strong data-player-rating></strong></span>
+            <span>Durasi: <strong data-player-duration></strong></span>
+        </div>
+    </div>
+
+    <section class="related-section">
+        <h3 class="section-title">Related Content</h3>
+        <div class="carousel-related" id="related-content-container"></div>
+    </section>
+</section>
