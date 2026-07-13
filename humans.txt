@@ -1,5 +1,5 @@
 /* TEAM */
-Project: Web3 Content Platform
+Project: RyouStream
 Type: Static frontend + Termux backend via Cloudflare Tunnel
 
 /* SITE */

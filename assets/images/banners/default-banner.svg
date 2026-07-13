@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
-  <rect width="960" height="360" fill="#141414"/>
-  <text x="480" y="185" font-family="Arial, sans-serif" font-size="24" fill="#888888" text-anchor="middle">Web3 Platform</text>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17101d"/>
+      <stop offset="100%" stop-color="#2a1128"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="360" fill="url(#g1)"/>
+  <text x="480" y="185" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ff2d6f" text-anchor="middle">RyouStream</text>
 </svg>

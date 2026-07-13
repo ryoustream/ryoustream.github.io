@@ -15,23 +15,23 @@ img { max-width: 100%; display: block; }
 }
 
 [data-theme="dark"] {
-    --bg: #0a0a0a;
-    --surface: #141414;
-    --border: #222222;
-    --text-primary: #f0f0f0;
-    --text-secondary: #888888;
-    --accent: #00d4aa;
-    --accent-hover: #00f0c0;
+    --bg: #0d0710;
+    --surface: #17101d;
+    --border: #2a1f30;
+    --text-primary: #f5eef7;
+    --text-secondary: #9a8aa3;
+    --accent: #ff2d6f;
+    --accent-hover: #ff5c8d;
 }
 
 [data-theme="light"] {
-    --bg: #f5f5f5;
+    --bg: #f7f4f8;
     --surface: #ffffff;
-    --border: #e0e0e0;
-    --text-primary: #111111;
-    --text-secondary: #666666;
-    --accent: #009977;
-    --accent-hover: #00b38a;
+    --border: #e5dbe8;
+    --text-primary: #1a1220;
+    --text-secondary: #6f6277;
+    --accent: #d81b60;
+    --accent-hover: #ff2d6f;
 }
 
 /* ---------- Typography ---------- */
@@ -138,8 +138,8 @@ body.no-scroll { overflow: hidden; }
 .card-poster { position: relative; aspect-ratio: 16/9; overflow: hidden; background: var(--surface); }
 .card-poster img { width: 100%; height: 100%; object-fit: cover; }
 .card-badge {
-    position: absolute; top: 8px; right: 8px; background: var(--accent); color: #0a0a0a;
-    font-size: 11px; padding: 2px 8px; border-radius: var(--radius); font-weight: 600;
+    position: absolute; top: 8px; right: 8px; background: linear-gradient(135deg, var(--accent), #a020f0);
+    color: #fff; font-size: 11px; padding: 2px 8px; border-radius: var(--radius); font-weight: 600;
 }
 .card-overlay {
     position: absolute; inset: 0; display: flex; align-items: flex-end; padding: 10px;
@@ -170,7 +170,7 @@ body.no-scroll { overflow: hidden; }
     background: var(--surface); border: 1px solid var(--border); color: var(--text-primary);
     padding: 8px 16px; border-radius: var(--radius); transition: background var(--transition), color var(--transition);
 }
-.genre-chip:hover { background: var(--accent); color: #0a0a0a; }
+.genre-chip:hover { background: var(--accent); color: #ffffff; }
 
 /* ---------- Empty / Error States ---------- */
 .empty-state, .error-state {
@@ -184,7 +184,7 @@ body.no-scroll { overflow: hidden; }
 .btn-primary, .btn-secondary {
     padding: 10px 20px; border-radius: var(--radius); font-weight: 600; transition: background var(--transition);
 }
-.btn-primary { background: var(--accent); color: #0a0a0a; }
+.btn-primary { background: var(--accent); color: #ffffff; }
 .btn-primary:hover { background: var(--accent-hover); }
 .btn-secondary { background: var(--surface); color: var(--text-primary); border: 1px solid var(--border); }
 .btn-secondary:hover { background: var(--border); }

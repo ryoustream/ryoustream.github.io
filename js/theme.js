@@ -8,7 +8,7 @@ const Theme = (function () {
         document.documentElement.setAttribute("data-theme", theme);
         const meta = document.querySelector('meta[name="theme-color"]');
         if (meta) {
-            meta.setAttribute("content", theme === "dark" ? "#0a0a0a" : "#f5f5f5");
+            meta.setAttribute("content", theme === "dark" ? "#0d0710" : "#f7f4f8");
         }
         localStorage.setItem("theme", theme);
         updateToggleIcon(theme);

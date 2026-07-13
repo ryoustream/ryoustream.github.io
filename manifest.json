@@ -1,12 +1,12 @@
 {
-    "name": "Web3 Content Platform",
-    "short_name": "Web3",
+    "name": "RyouStream",
+    "short_name": "RyouStream",
     "start_url": "./index.html",
     "display": "standalone",
-    "background_color": "#0a0a0a",
-    "theme_color": "#0a0a0a",
+    "background_color": "#0d0710",
+    "theme_color": "#0d0710",
     "orientation": "any",
-    "categories": ["entertainment", "utilities"],
+    "categories": ["entertainment"],
     "icons": [
         { "src": "assets/icons/icon-72x72.png", "sizes": "72x72", "type": "image/png" },
         { "src": "assets/icons/icon-96x96.png", "sizes": "96x96", "type": "image/png" },

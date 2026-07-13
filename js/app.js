@@ -2,8 +2,8 @@ window.APP_STATE = {
     online: false,
     apiUrl: CONFIG.API_BASE,
     settings: {
-        siteName: "Web3 Platform",
-        siteDescription: "Decentralized Content Platform",
+        siteName: "RyouStream",
+        siteDescription: "Nonton Anime Favoritmu, Kapan Saja",
         version: CONFIG.VERSION,
         defaultTheme: "dark",
         itemsPerPage: 24,
